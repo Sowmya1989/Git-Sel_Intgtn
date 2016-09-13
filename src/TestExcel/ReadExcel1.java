@@ -17,8 +17,6 @@ public class ReadExcel1
         XSSFSheet sh = wb.getSheetAt(0);
         String SheetName = sh.getSheetName();
         System.out.print("Sheet Name is "+SheetName);
-        System.out.println(" Data from sheet1 is given below");
-        
         wb.close(); 
 
 	}
